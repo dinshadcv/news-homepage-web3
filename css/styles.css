@@ -1,0 +1,140 @@
+body {
+  justify-content: center;
+  text-align: left;
+  font-family: "Inter";
+  margin: 100px 120px 10px;
+  background-color: #FFFBF5;
+}
+hr {
+  color: #C5C6CE;
+  margin:10% 0;
+}
+h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color:#03051e;
+}
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-item {
+  padding-left: 30px;
+  cursor: pointer;
+}
+.nav-link:hover{
+  color:#F15E50;
+}
+.gridview {
+  padding-top: 2%;
+}
+.container-fluid {
+  padding:0;
+}
+.one {
+  padding-right: 30px;
+}
+
+.two {
+  background-color: #03051E;
+  line-height: 2;
+  padding:2% 3% 3% 3%;
+}
+.two-h2 {
+  color: #E9AB53;
+  padding-bottom: 4%;
+}
+.two-h3 {
+  color: #FFFBF5;
+  font-size: 20px;
+  cursor:pointer;
+}
+.two-h3:hover {
+  color: #E9AB53;
+}
+.two-p {
+  color: #C5C6CE;
+}
+.three {
+  padding: 2% 8% 0 1%;
+}
+
+.four {
+  padding-top: 2%;
+  color: #5D5F79;
+}
+.myButton {
+  background-color: #f15e50;
+  border: 1px solid #fffdfa;
+  display: inline-block;
+  cursor: pointer;
+  color: #fffdfa;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 15px 38px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fffdfa;
+  letter-spacing: 3px;
+  margin-top: 35px;
+}
+
+.myButton:hover {
+  background-color: #03051e;
+  color: #fffdfa;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.short-news {
+  padding-top: 6%;
+  padding:6% 3% 0 0;
+  line-height: 2;
+}
+.news-nmbr {
+  color: #C5C6CE;
+}
+.newshead {
+  color:#03051e;
+  font-size: 20px;
+  cursor:pointer;
+}
+.newshead:hover {
+  color: #F15E50;
+}
+.news {
+ font-size: 15px;
+ color: #5D5F79;
+}
+.jpgs {
+  width: 110px;
+  height: 175px;
+  float: left;
+  margin-right: 15px;
+}
+
+@media (max-width:992px) {
+  body{
+    margin:25px;
+  }
+  .four {
+    margin-bottom: 30px;
+  }
+  .news-nmbr {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .navbar-nav {
+    padding-top: 50px;
+  }
+  .nav-link {
+    color:#03051e;
+  }
+
+}
